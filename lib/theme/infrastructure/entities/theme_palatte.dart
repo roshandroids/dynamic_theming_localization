@@ -11,13 +11,14 @@ class ThemePalatte {
     required this.scaffoldBackground,
     required this.borderColor,
     required this.textColor,
+    required this.iconColor,
   });
   final ThemeType themeType;
   final TextTheme textTheme;
   final Brightness brightness;
   final ThemeMode themeMode;
   final Color scaffoldBackground;
-
+  final Color iconColor;
   final Color borderColor;
   final Color textColor;
   /*Material color generator for text theme*/
@@ -40,6 +41,7 @@ class ThemePalatte {
   );
   /*Getter to get Palatte for light theme*/
   static ThemePalatte get lightThemePalatte => ThemePalatte(
+        iconColor: Colors.blueAccent,
         textColor: textSwatch.shade600,
         borderColor: textSwatch.shade700,
         scaffoldBackground: textSwatch.shade100,
@@ -91,6 +93,7 @@ class ThemePalatte {
       );
   /*Getter to get Palatte for light theme*/
   static ThemePalatte get darkThemePalatte => ThemePalatte(
+        iconColor: Colors.lightBlueAccent,
         textColor: textSwatch.shade100,
         borderColor: textSwatch.shade200,
         scaffoldBackground: const Color(0xFF1F2937),
