@@ -1,0 +1,13 @@
+{
+  "app_name": "Agri Vet Nepal",
+
+  "bottom_nav_first": "Home",
+  "bottom_nav_second": "Info",
+
+  "dark_mode_title": "Dark Theme",
+  
+  "language_switch_title":"Change Language",
+  "offline_status":"No Internet Connection",
+  "online_status":"Internet Connection Restored"
+
+}

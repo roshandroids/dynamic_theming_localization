@@ -1,0 +1,12 @@
+{
+  "app_name": "एग्री भेट नेपाल",
+
+  "bottom_nav_first": "गृह पृष्ठ",
+  "bottom_nav_second": "सूचना बोर्ड",
+
+  "dark_mode_title": "अँध्यारो थीम",
+  "language_switch_title":"भाषा परिबर्तन",
+  "offline_status":"इन्टरनेट सेवा उपलब्द छैन",
+  "online_status":"इन्टरनेट सेवा पुनर्स्थापना भयो"
+
+}
